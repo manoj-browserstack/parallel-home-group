@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="305.932" tests="23" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2023.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="21+35-LTS-2513"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/manoj/Downloads/Parallels"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/manoj/Downloads/Parallels"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="21+35-LTS-2513"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/lv/p8d2w1xx2bb_3bm7q7n3h_ph0000gq/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Users/manoj/Applications/IntelliJ IDEA Community Edition.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Users/manoj/Applications/IntelliJ IDEA Community Edition.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/manoj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="/Users/manoj/Applications/IntelliJ IDEA Community Edition.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="65.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="14.3.1"/>
+    <property name="user.home" value="/Users/manoj"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="user.name" value="manoj"/>
+    <property name="java.class.path" value="/Users/manoj/Applications/IntelliJ IDEA Community Edition.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Users/manoj/Applications/IntelliJ IDEA Community Edition.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.7.0.jar"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2023.3.2 test -P sample-test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="21"/>
+    <property name="native.encoding" value="US-ASCII"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="/Users/manoj/Applications/IntelliJ IDEA Community Edition.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+  </properties>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest" time="4.535"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest1" time="4.719"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest2" time="4.284"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest3" time="3.8"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest4" time="3.589"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest5" time="4.339"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest6" time="4.199"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest7" time="3.257"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest8" time="3.773"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest9" time="5.413"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest10" time="3.802"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest11" time="4.926"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest12" time="6.074"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest13" time="5.755"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest14" time="4.701"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest15" time="5.21"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest16" time="4.59"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest17" time="4.182"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest18" time="7.034"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest19" time="11.385"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest20" time="4.337"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest21" time="3.951"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest22" time="3.677"/>
+</testsuite>

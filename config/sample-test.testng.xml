@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross-Platform">
+    <test name="BStackDemo">
+        <classes>
+            <class name="com.browserstack.BStackDemoTest" />
+            <class name="com.browserstack.BStackDemoTest1" />
+            <class name="com.browserstack.BStackDemoTest2" />
+            <class name="com.browserstack.BStackDemoTest3" />
+            <class name="com.browserstack.BStackDemoTest4" />
+            <class name="com.browserstack.BStackDemoTest5" />
+            <class name="com.browserstack.BStackDemoTest5" />
+            <class name="com.browserstack.BStackDemoTest6" />
+            <class name="com.browserstack.BStackDemoTest7" />
+            <class name="com.browserstack.BStackDemoTest8" />
+            <class name="com.browserstack.BStackDemoTest9" />
+            <class name="com.browserstack.BStackDemoTest10" />
+            <class name="com.browserstack.BStackDemoTest11" />
+            <class name="com.browserstack.BStackDemoTest12" />
+            <class name="com.browserstack.BStackDemoTest13" />
+            <class name="com.browserstack.BStackDemoTest14" />
+            <class name="com.browserstack.BStackDemoTest15" />
+            <class name="com.browserstack.BStackDemoTest16" />
+            <class name="com.browserstack.BStackDemoTest17" />
+            <class name="com.browserstack.BStackDemoTest18" />
+            <class name="com.browserstack.BStackDemoTest19" />
+            <class name="com.browserstack.BStackDemoTest20" />
+            <class name="com.browserstack.BStackDemoTest21" />
+            <class name="com.browserstack.BStackDemoTest22" />
+        </classes>
+    </test>
+</suite>

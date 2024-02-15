@@ -1,0 +1,1138 @@
+20:05:19.602 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+20:05:19.604 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:05:19.689 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+20:05:19.690 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+20:05:19.711 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:05:19.714 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+20:05:19.809 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire8321168059595600497tmp
+20:05:19.810 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.BStackLocalTest, com.browserstack.SeleniumTest
+20:05:19.817 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+20:05:19.818 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+20:05:19.818 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+20:05:19.818 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.4
+20:05:19.818 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:05:20.525 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+20:05:20.997 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 469ms
+20:05:22.154 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1152ms
+20:05:23.282 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1127ms
+20:05:23.283 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+20:05:25.029 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+20:05:25.030 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:05:29.938 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+20:05:29.978 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:05:30.417 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/874f36f272b0455630bb57669e0feda47d47b7bf
+20:05:30.417 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:05:30.417 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  1) is not same as client side buildName(parallels build #1)
+20:05:31.068 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - Mark Session Name failed - org.openqa.selenium.WebDriverException: An unknown error has occurred
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'ManojKumar-FVFH71A4Q05N', ip: 'fe80:0:0:0:a9:d0a2:9102:8119%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b491e47487c9d520bad54804e53f1a3de65e2d29, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"com.browserstack.BStackDemoTest-addProductToCart"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Windows\proxy\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3085}, javascriptEnabled: true, networkConnectionEnabled: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b491e47487c9d520bad54804e53...}
+Session ID: b491e47487c9d520bad54804e53f1a3de65e2d29
+20:05:31.167 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - Mark Session Status failed - org.openqa.selenium.WebDriverException: An unknown error has occurred
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'ManojKumar-FVFH71A4Q05N', ip: 'fe80:0:0:0:a9:d0a2:9102:8119%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b491e47487c9d520bad54804e53f1a3de65e2d29, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"An unknown error has occurred Build info: version: '4.1.4', revision: '535d840ee2' System info: host: 'ManojKumar-FVFH71A4Q05N', ip: 'fe80:0:0:0:a9:d0a2:9102:8119%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '21' Driver info: org.openqa.selenium.chrome.ChromeDriver Command: [b491e47487c9d520bad54804e53f1a3de65e2d29, getTitle {}] Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Windows\\proxy\\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3085}, javascriptEnabled: true, networkConnectionEnabled: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b491e47487c9d520bad54804e53...} Session ID: b491e47487c9d520bad54804e53f1a3de65e2d29","status":"failed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Windows\proxy\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3085}, javascriptEnabled: true, networkConnectionEnabled: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b491e47487c9d520bad54804e53...}
+Session ID: b491e47487c9d520bad54804e53f1a3de65e2d29
+20:07:27.253 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+20:07:27.254 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:07:27.335 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+20:07:27.336 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+20:07:27.357 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:07:27.360 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+20:07:27.453 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire10732173382707511524tmp
+20:07:27.454 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.BStackLocalTest, com.browserstack.SeleniumTest
+20:07:27.462 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+20:07:27.463 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+20:07:27.463 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+20:07:27.463 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.4
+20:07:27.463 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:07:27.907 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+20:07:28.133 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 224ms
+20:07:29.132 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 994ms
+20:07:30.156 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1020ms
+20:07:30.159 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+20:07:30.670 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+20:07:30.670 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:07:37.767 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:07:51.353 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+20:07:51.846 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/7575df3b8fe285b77bc50b392ecf011790b11bb0
+20:07:51.847 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:07:51.847 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  2) is not same as client side buildName(parallels build #2)
+20:09:25.349 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+20:09:25.350 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:09:25.431 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+20:09:25.431 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+20:09:25.452 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:09:25.456 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+20:09:25.551 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire9077047531388502204tmp
+20:09:25.551 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+20:09:25.559 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+20:09:25.560 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+20:09:25.560 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+20:09:25.560 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.4
+20:09:25.561 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:09:26.181 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+20:09:26.687 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 503ms
+20:09:27.711 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1010ms
+20:09:28.735 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1023ms
+20:09:28.740 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+20:09:29.244 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+20:09:29.244 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:09:39.338 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:09:47.580 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+20:09:48.051 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/43a0fa531448b5e1e8512ed8c89e5e1839909f99
+20:09:48.052 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:09:48.052 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  3) is not same as client side buildName(parallels build #3)
+20:11:36.956 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+20:11:36.958 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:11:37.041 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+20:11:37.042 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+20:11:37.063 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:11:37.067 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+20:11:37.164 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire14339370948303549221tmp
+20:11:37.165 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+20:11:37.173 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+20:11:37.174 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+20:11:37.174 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+20:11:37.174 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.4
+20:11:37.174 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:11:37.675 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+20:11:38.096 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 419ms
+20:11:39.148 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1048ms
+20:11:40.250 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1100ms
+20:11:40.253 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+20:11:40.866 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+20:11:40.866 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:11:46.460 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:11:53.458 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+20:11:54.077 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/e9d619c7488c51bfe956a7ac427abceed2813261
+20:11:54.077 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:11:54.077 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  4) is not same as client side buildName(parallels build #4)
+20:13:14.073 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+20:13:14.074 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:13:14.154 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+20:13:14.154 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+20:13:14.174 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:13:14.177 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+20:13:14.274 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire17469029952675293208tmp
+20:13:14.275 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+20:13:14.282 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+20:13:14.283 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+20:13:14.283 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+20:13:14.283 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.4
+20:13:14.283 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:13:14.776 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+20:13:15.278 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 498ms
+20:13:16.301 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1017ms
+20:13:17.325 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1023ms
+20:13:17.327 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+20:13:18.020 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+20:13:18.024 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:13:23.208 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:13:30.233 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+20:13:31.782 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/e6e572a07b349fde32b3c705f1dc9bcf00aa6a20
+20:13:31.782 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:13:31.782 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  5) is not same as client side buildName(parallels build #5)
+20:15:13.879 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+20:15:13.880 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:15:13.960 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+20:15:13.960 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+20:15:13.981 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:15:13.984 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+20:15:14.076 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire4444112584472882534tmp
+20:15:14.077 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+20:15:14.084 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+20:15:14.085 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+20:15:14.085 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+20:15:14.085 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.4
+20:15:14.085 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:15:14.792 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+20:15:15.292 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 496ms
+20:15:16.214 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 918ms
+20:15:17.342 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1127ms
+20:15:17.345 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+20:15:18.008 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+20:15:18.009 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:15:24.017 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:15:34.347 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:15:47.352 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:15:56.151 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:16:06.294 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:16:11.993 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+20:16:12.615 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/936387a864cb7113768d6379e0a05e0209666973
+20:16:12.616 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:16:12.616 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  6) is not same as client side buildName(parallels build #6)
+20:16:23.810 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+20:16:23.811 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:16:23.892 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+20:16:23.892 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+20:16:23.913 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:16:23.916 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+20:16:24.012 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire1028742784468904639tmp
+20:16:24.012 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+20:16:24.020 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+20:16:24.021 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+20:16:24.021 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+20:16:24.021 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.4
+20:16:24.022 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:16:24.522 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+20:16:25.129 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 603ms
+20:16:26.154 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1020ms
+20:16:27.280 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1123ms
+20:16:27.285 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+20:16:27.895 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+20:16:27.895 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:16:33.604 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:16:44.616 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:16:53.420 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:17:02.927 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:17:12.961 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:17:22.559 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+20:17:23.088 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/3c41bb04bf003a401605ec84885598baece58427
+20:17:23.089 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:17:23.089 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  7) is not same as client side buildName(parallels build #7)
+20:17:33.477 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+20:17:33.478 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:17:33.559 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+20:17:33.560 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+20:17:33.580 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:17:33.584 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+20:17:33.677 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire255772581933963447tmp
+20:17:33.678 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+20:17:33.685 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+20:17:33.686 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+20:17:33.686 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+20:17:33.686 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.4
+20:17:33.686 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:17:34.259 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+20:17:34.659 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 398ms
+20:17:35.802 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1139ms
+20:17:36.707 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 903ms
+20:17:36.710 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+20:17:37.199 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+20:17:37.200 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:17:47.016 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:17:58.146 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:18:16.553 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:18:26.178 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:18:35.006 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+20:18:35.007 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:18:35.090 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+20:18:35.091 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+20:18:35.113 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:18:35.116 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+20:18:35.218 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire13219776063105921893tmp
+20:18:35.218 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+20:18:35.227 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+20:18:35.228 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+20:18:35.228 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+20:18:35.228 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.4
+20:18:35.228 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:18:35.700 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+20:18:36.100 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 396ms
+20:18:37.229 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1125ms
+20:18:37.862 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:18:38.218 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 988ms
+20:18:38.222 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+20:18:38.768 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+20:18:38.769 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:18:43.037 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:18:45.159 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+20:18:45.613 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/bc1316c6c075b2b3531dfa0688cd98ac4a0b909c
+20:18:45.614 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:18:45.614 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  8) is not same as client side buildName(parallels build #8)
+20:18:53.619 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:19:05.399 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:19:18.806 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:19:29.563 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:19:36.620 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+20:19:37.235 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/118315634ebda671029f756225641c580ec64de8
+20:19:37.236 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:19:37.236 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  9) is not same as client side buildName(parallels build #9)
+20:19:46.812 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+20:19:46.813 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:19:46.896 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+20:19:46.896 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+20:19:46.918 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:19:46.921 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+20:19:47.015 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire3052256180717497121tmp
+20:19:47.016 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+20:19:47.024 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+20:19:47.025 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+20:19:47.026 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+20:19:47.026 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.4
+20:19:47.026 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:19:47.585 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+20:19:48.087 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 498ms
+20:19:49.080 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 987ms
+20:19:50.103 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1021ms
+20:19:50.108 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+20:19:50.751 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+20:19:50.752 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:19:55.676 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:20:06.117 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:20:17.485 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:20:30.694 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:20:41.102 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:20:47.759 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+20:20:48.300 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/2d841c4755df5ee779e522d053993d1f52fd8e9b
+20:20:48.300 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:20:48.301 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  10) is not same as client side buildName(parallels build #10)
+12:15:03.156 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+12:15:03.160 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:15:03.458 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+12:15:03.460 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+12:15:03.557 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:15:03.571 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+12:15:03.950 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire3190076440151061962tmp
+12:15:03.953 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+12:15:03.987 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+12:15:03.991 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+12:15:03.992 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+12:15:03.992 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+12:15:03.992 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:15:04.729 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+12:15:04.975 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 240ms
+12:15:05.948 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 970ms
+12:15:06.891 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 941ms
+12:15:06.893 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+12:15:07.663 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+12:15:07.663 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:15:14.758 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:15:25.094 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:15:44.241 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:15:57.296 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:16:09.021 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:16:14.851 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+12:16:16.595 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/a0c0f94bc35d5df2a44aaf7ded103554bc86f175
+12:16:16.595 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:16:16.595 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  11) is not same as client side buildName(parallels build #11)
+12:17:15.960 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+12:17:15.966 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:17:16.311 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+12:17:16.312 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+12:17:16.402 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:17:16.415 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+12:17:16.780 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire14977986767028932467tmp
+12:17:16.784 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+12:17:16.816 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+12:17:16.821 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+12:17:16.821 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+12:17:16.821 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+12:17:16.821 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:17:17.526 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+12:17:17.927 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 397ms
+12:17:18.899 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 968ms
+12:17:20.083 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1183ms
+12:17:20.085 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+12:17:20.592 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+12:17:20.592 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:17:26.840 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:17:37.806 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:17:49.581 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:18:02.172 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:18:02.945 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+12:18:02.952 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:18:03.255 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+12:18:03.258 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+12:18:03.348 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:18:03.361 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+12:18:03.722 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire8628489907364772782tmp
+12:18:03.724 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+12:18:03.754 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+12:18:03.758 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+12:18:03.758 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+12:18:03.758 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+12:18:03.758 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:18:04.528 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+12:18:04.928 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 393ms
+12:18:05.838 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 905ms
+12:18:06.729 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 889ms
+12:18:06.731 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+12:18:07.344 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+12:18:07.344 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:18:13.407 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:18:29.420 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:18:37.286 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+12:18:37.790 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/0f485fd576bc0a55b22fe224c43941ece63329b8
+12:18:37.790 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:18:37.790 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  12) is not same as client side buildName(parallels build #12)
+12:18:40.264 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:18:52.549 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:19:07.804 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:19:19.895 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:19:27.700 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+12:19:28.122 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/76a304e0fbfc6bb5db827ca9113679cf144a044d
+12:19:28.122 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:19:28.122 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  13) is not same as client side buildName(parallels build #13)
+12:19:52.292 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+12:19:52.297 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:19:52.743 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+12:19:52.746 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+12:19:52.861 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:19:52.877 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+12:19:53.266 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire2960809196566089259tmp
+12:19:53.269 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+12:19:53.304 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+12:19:53.308 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+12:19:53.308 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+12:19:53.309 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+12:19:53.309 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:19:54.149 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+12:19:54.481 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 329ms
+12:19:55.357 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 874ms
+12:19:56.493 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1135ms
+12:19:56.495 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+12:19:57.065 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+12:19:57.065 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:20:03.628 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:20:15.777 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:20:25.993 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:20:37.385 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:20:47.699 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:20:52.858 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+12:20:54.343 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/91a1e8b83849438262b41f6fdb816ba46ebe4f8d
+12:20:54.343 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:20:54.344 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  14) is not same as client side buildName(parallels build #14)
+12:22:10.735 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+12:22:10.742 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:22:11.207 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+12:22:11.211 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+12:22:11.316 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:22:11.330 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+12:22:11.667 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire2605267327444718162tmp
+12:22:11.669 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+12:22:11.701 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+12:22:11.705 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+12:22:11.705 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+12:22:11.706 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+12:22:11.706 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:22:12.345 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+12:22:12.544 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 194ms
+12:22:13.402 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 854ms
+12:22:14.275 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 871ms
+12:22:14.277 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+12:22:14.855 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+12:22:14.856 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:22:21.383 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:22:31.736 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:22:41.755 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:22:51.396 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:23:01.640 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:23:11.098 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+12:23:11.564 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/f0a8bf2b477261a9cd8903882cdbbe9d251ccf9a
+12:23:11.564 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:23:11.565 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  15) is not same as client side buildName(parallels build #15)
+12:26:32.792 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+12:26:32.795 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:26:32.957 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+12:26:32.958 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+12:26:33.003 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:26:33.010 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+12:26:33.204 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire15550397749035113126tmp
+12:26:33.206 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+12:26:33.224 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+12:26:33.226 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+12:26:33.227 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+12:26:33.227 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+12:26:33.227 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:26:33.811 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+12:26:34.208 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 394ms
+12:26:35.338 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1127ms
+12:26:36.307 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 968ms
+12:26:36.309 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+12:26:36.873 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+12:26:36.874 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:26:42.077 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:26:53.880 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:27:05.468 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:27:18.147 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:27:29.819 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:27:38.617 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+12:27:39.284 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/07ffbccdcf44ceb57afeb1b924cc9309d49eaa33
+12:27:39.284 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:27:39.284 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  16) is not same as client side buildName(parallels build #16)
+12:28:05.320 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+12:28:05.325 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:28:05.686 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+12:28:05.688 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+12:28:05.787 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:28:05.796 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+12:28:06.161 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire1409772381832863872tmp
+12:28:06.164 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+12:28:06.199 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+12:28:06.203 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+12:28:06.203 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+12:28:06.203 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+12:28:06.203 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:28:06.940 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+12:28:07.320 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 374ms
+12:28:08.312 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 987ms
+12:28:09.276 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 963ms
+12:28:09.278 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+12:28:09.774 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+12:28:09.775 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:28:16.931 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:28:36.478 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:28:45.592 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:28:58.706 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:29:09.254 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:29:14.852 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+12:29:15.262 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/8395fbf94fc308531d7bf09d20565dd2b4e19a98
+12:29:15.262 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:29:15.262 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  17) is not same as client side buildName(parallels build #17)
+12:30:03.063 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+12:30:03.071 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:30:03.426 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+12:30:03.428 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+12:30:03.509 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:30:03.515 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+12:30:03.938 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire1752085198618498524tmp
+12:30:03.941 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+12:30:03.979 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+12:30:03.985 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+12:30:03.985 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+12:30:03.986 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+12:30:03.986 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:30:04.794 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+12:30:05.077 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 278ms
+12:30:06.037 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 954ms
+12:30:07.070 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1031ms
+12:30:07.074 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+12:30:07.595 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+12:30:07.596 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:30:14.638 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:30:26.352 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:30:36.283 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:30:46.727 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:30:58.298 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:31:04.743 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+12:31:06.387 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/f54293df841615c4738acb7e0bf8585b8ef7b9d3
+12:31:06.389 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:31:06.389 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  18) is not same as client side buildName(parallels build #18)
+12:36:21.908 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+12:36:21.914 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:36:22.235 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+12:36:22.237 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+12:36:22.339 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:36:22.354 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+12:36:22.746 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire12485615341152499249tmp
+12:36:22.748 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+12:36:22.776 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+12:36:22.780 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+12:36:22.782 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+12:36:22.783 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+12:36:22.783 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:36:23.551 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+12:36:23.929 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 372ms
+12:36:25.072 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1139ms
+12:36:26.199 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1126ms
+12:36:26.201 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+12:36:26.711 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+12:36:26.712 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:36:32.654 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:36:51.208 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:37:01.223 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:37:12.596 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:37:22.147 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:37:28.457 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+12:37:28.968 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/d5657284ea16ddadbb93aad9f015cb0eb5fbd347
+12:37:28.968 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:37:28.968 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  19) is not same as client side buildName(parallels build #19)
+12:43:25.664 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+12:43:25.669 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:43:25.980 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+12:43:25.988 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+12:43:26.091 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:43:26.104 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+12:43:26.440 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire7309895605370792134tmp
+12:43:26.443 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+12:43:26.481 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+12:43:26.486 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+12:43:26.486 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+12:43:26.487 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+12:43:26.487 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:43:27.261 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+12:43:27.767 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 502ms
+12:43:28.994 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1224ms
+12:43:30.018 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1021ms
+12:43:30.019 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+12:43:30.741 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+12:43:30.742 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:43:37.351 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:43:49.378 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:44:02.085 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:44:16.414 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:44:27.981 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:44:37.703 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+12:44:38.287 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/9f385d8f125a697ace856367de98c3ede7dac126
+12:44:38.288 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:44:38.288 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  20) is not same as client side buildName(parallels build #20)
+12:58:38.129 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+12:58:38.135 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:58:38.533 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+12:58:38.535 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+12:58:38.630 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:58:38.639 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+12:58:38.999 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire2054084783665961120tmp
+12:58:39.000 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+12:58:39.012 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+12:58:39.019 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+12:58:39.020 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+12:58:39.020 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+12:58:39.021 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:58:39.742 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+12:58:40.144 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 397ms
+12:58:41.266 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1119ms
+12:58:42.440 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1172ms
+12:58:42.442 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+12:58:43.114 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+12:58:43.114 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:58:49.680 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:59:01.445 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:59:13.020 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:59:23.562 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:59:34.728 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+12:59:46.606 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:00:00.083 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:00:15.069 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:00:26.744 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:00:39.850 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:00:50.078 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:01:04.220 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:01:14.970 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:01:27.973 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:01:39.646 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:01:51.012 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:02:02.995 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:02:13.442 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:02:37.417 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:02:47.946 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:03:04.741 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:03:15.207 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:03:25.527 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:03:32.076 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:03:32.793 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/1250b97866842176fffba233b2680e4621851cdb
+13:03:32.794 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:03:32.794 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  21) is not same as client side buildName(parallels build #21)
+13:03:46.646 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+13:03:46.651 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:03:47.016 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+13:03:47.019 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+13:03:47.129 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:03:47.144 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+13:03:47.508 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire16309663370416730387tmp
+13:03:47.510 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+13:03:47.546 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:03:47.551 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:03:47.551 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:03:47.552 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+13:03:47.552 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:03:48.468 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+13:03:49.174 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 701ms
+13:03:50.354 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1177ms
+13:03:51.324 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 969ms
+13:03:51.326 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+13:03:51.941 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:03:51.941 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:03:58.515 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:04:12.221 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:04:23.267 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:04:26.950 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+13:04:26.957 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:04:27.386 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+13:04:27.389 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+13:04:27.496 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:04:27.509 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+13:04:27.913 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire16602693976404645655tmp
+13:04:27.916 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+13:04:27.955 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:04:27.961 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:04:27.962 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:04:27.962 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+13:04:27.962 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:04:28.851 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+13:04:29.174 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 318ms
+13:04:30.341 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1159ms
+13:04:31.363 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1020ms
+13:04:31.367 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+13:04:32.392 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:04:32.393 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:04:32.819 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+13:04:32.826 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:04:33.324 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+13:04:33.332 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+13:04:33.554 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:04:33.575 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+13:04:34.141 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire9150831932247778035tmp
+13:04:34.142 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+13:04:34.183 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:04:34.191 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:04:34.192 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:04:34.192 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+13:04:34.192 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:04:34.317 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:04:34.956 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+13:04:35.356 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 397ms
+13:04:36.584 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1219ms
+13:04:37.609 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1022ms
+13:04:37.617 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+13:04:38.226 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:04:38.227 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:04:41.855 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+13:04:41.859 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:04:42.242 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+13:04:42.246 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+13:04:42.356 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:04:42.373 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+13:04:42.808 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire6273053889546702408tmp
+13:04:42.809 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+13:04:43.134 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:04:43.138 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:04:43.139 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:04:43.139 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+13:04:43.140 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:04:43.969 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+13:04:44.366 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 392ms
+13:04:45.595 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1225ms
+13:04:45.929 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:04:46.722 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1125ms
+13:04:46.724 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+13:04:47.333 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:04:47.334 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:04:56.255 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:05:06.968 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:05:17.866 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:05:28.409 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:05:41.036 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:05:50.833 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:06:00.048 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:06:16.599 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:06:29.435 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:06:39.064 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:06:51.009 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:07:01.690 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:07:12.342 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:07:24.695 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:07:36.613 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:07:47.689 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:08:05.179 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:08:16.656 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:08:27.399 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:08:37.334 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:08:48.186 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:08:59.961 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:09:47.267 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:10:54.340 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:11:04.787 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:11:15.741 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:11:26.080 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:11:38.573 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:11:48.610 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:12:00.287 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:12:10.321 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:12:19.431 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:12:32.340 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:12:46.160 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:13:05.000 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:13:16.978 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:13:28.860 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:13:39.204 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:13:56.916 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:14:06.539 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:14:16.695 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:14:34.288 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:16:09.534 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:16:19.660 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:16:31.124 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:16:44.751 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:16:56.111 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:17:08.093 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:17:19.557 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:17:31.239 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:17:42.398 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:17:51.325 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:18:02.361 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:18:12.258 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:18:24.687 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:18:35.945 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:18:50.078 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:19:00.317 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:19:10.867 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:19:21.822 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:19:33.595 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:19:49.161 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:20:06.059 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:20:18.651 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:20:30.747 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:20:46.400 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:20:56.339 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:21:06.269 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:21:17.429 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:21:39.136 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:21:49.181 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:21:56.854 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:21:57.371 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/dbec45e5de1c32cf1b6db34b6d9e449c52632e9c
+13:21:57.372 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:21:57.372 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  22) is not same as client side buildName(parallels build #22)
+13:22:00.543 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:22:11.389 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:22:19.168 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:22:19.777 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/c307139aa2ecb610631b4b7abcd723a133831792
+13:22:19.778 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:22:19.778 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  23) is not same as client side buildName(parallels build #23)
+13:22:23.154 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:22:34.124 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:22:44.974 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:22:55.383 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:23:04.836 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:23:15.549 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:23:26.546 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:23:36.991 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:23:47.874 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:24:02.252 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:24:12.725 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:24:23.583 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:24:30.712 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:24:31.255 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/557eec233cd36df9a8f91d63eb0bbd37783ad228
+13:24:31.255 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:24:31.255 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  24) is not same as client side buildName(parallels build #24)
+13:24:34.539 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:24:45.974 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:24:52.349 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:24:52.976 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/c3cb2829290c659664c5e0e56bb90b08e2c0885e
+13:24:52.978 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:24:52.978 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  25) is not same as client side buildName(parallels build #25)
+13:25:30.938 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+13:25:30.948 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:25:31.309 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+13:25:31.311 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+13:25:31.390 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:25:31.401 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+13:25:31.788 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire2572855069670641328tmp
+13:25:31.790 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+13:25:31.822 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:25:31.827 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:25:31.828 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:25:31.828 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+13:25:31.828 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:25:32.805 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+13:25:33.237 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 427ms
+13:25:34.536 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1293ms
+13:25:35.766 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1227ms
+13:25:35.770 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+13:25:36.280 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:25:36.281 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:25:37.638 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+13:25:37.643 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:25:38.028 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+13:25:38.029 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+13:25:38.126 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:25:38.139 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+13:25:38.516 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire11688925376706921967tmp
+13:25:38.519 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+13:25:38.555 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:25:38.560 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:25:38.560 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:25:38.561 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+13:25:38.561 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:25:39.359 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+13:25:39.861 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 497ms
+13:25:40.885 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1019ms
+13:25:41.772 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 885ms
+13:25:41.776 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+13:25:42.527 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:25:42.528 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:25:42.554 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:25:46.914 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+13:25:46.918 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:25:47.309 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+13:25:47.311 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+13:25:47.410 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:25:47.427 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+13:25:47.792 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire12848778446757759783tmp
+13:25:47.794 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+13:25:47.823 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:25:47.828 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:25:47.829 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:25:47.829 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+13:25:47.829 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:25:49.599 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+13:25:49.961 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 359ms
+13:25:51.001 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1034ms
+13:25:52.048 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1045ms
+13:25:52.051 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+13:25:52.671 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:25:52.675 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:25:52.879 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:26:02.808 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:26:12.329 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:26:34.064 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:26:45.818 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:26:57.099 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:27:06.917 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:27:16.788 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:27:28.717 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:27:39.061 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:27:49.452 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:28:00.694 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:28:13.373 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:28:24.304 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:28:34.981 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:28:44.800 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:28:57.700 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:29:08.786 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:29:20.357 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:29:31.898 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:29:42.245 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:29:54.119 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:30:05.382 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:30:17.463 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:30:27.812 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:30:39.278 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:30:52.892 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:31:04.771 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:31:16.752 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:31:27.610 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:31:38.973 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:31:49.518 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:32:01.097 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:32:12.661 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:32:22.901 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:32:33.196 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:32:49.849 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:33:06.337 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:33:21.013 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:33:31.199 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:33:40.726 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:33:51.905 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:34:11.037 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:34:21.276 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:34:32.965 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:34:48.642 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:34:58.139 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:35:09.913 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:35:20.870 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:35:33.674 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:35:55.894 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:36:08.517 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:36:18.737 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:36:29.256 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:36:40.430 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:36:48.108 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:36:48.725 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/805d8b0174e2d6663dc525dc0ea85645367be899
+13:36:48.726 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:36:48.727 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  28) is not same as client side buildName(parallels build #28)
+13:36:51.933 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:37:04.699 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:37:40.741 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:37:53.646 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:38:08.599 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:38:27.753 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:38:39.890 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:38:51.000 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:39:03.955 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:39:14.806 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:39:21.764 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:39:22.224 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/42538804dffc2354637cb9bd790805cd3be1a808
+13:39:22.224 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:39:22.225 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  27) is not same as client side buildName(parallels build #27)
+13:39:24.946 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:39:35.283 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:39:45.729 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:39:52.878 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:39:54.635 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/a23d59a96b28f9da01b5ff4cc5fd72d502b1cf22
+13:39:54.635 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:39:54.635 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  26) is not same as client side buildName(parallels build #26)
+13:46:06.702 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+13:46:06.709 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:46:07.134 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+13:46:07.138 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+13:46:07.239 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:46:07.254 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+13:46:07.744 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire16406816963397192810tmp
+13:46:07.747 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+13:46:07.779 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:46:07.782 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:46:07.782 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:46:07.783 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+13:46:07.783 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:46:08.813 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+13:46:09.307 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 488ms
+13:46:10.741 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1428ms
+13:46:11.971 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1227ms
+13:46:11.975 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+13:46:12.692 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:46:12.694 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:46:13.708 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+13:46:13.718 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:46:14.176 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+13:46:14.179 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+13:46:14.251 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:46:14.260 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+13:46:14.765 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire11680732905781372725tmp
+13:46:14.767 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+13:46:14.800 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:46:14.806 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:46:14.807 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:46:14.807 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+13:46:14.807 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:46:15.563 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+13:46:16.068 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 502ms
+13:46:18.216 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 2141ms
+13:46:19.240 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1021ms
+13:46:19.245 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+13:46:19.387 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:46:19.859 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:46:19.860 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:46:30.621 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:46:40.682 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:46:52.665 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:47:02.153 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:47:10.864 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:47:22.222 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:47:33.181 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:47:43.009 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:47:52.021 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:48:06.458 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:48:17.414 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:48:28.985 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:48:39.431 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:48:52.947 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:49:03.703 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:49:14.154 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:49:25.409 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:49:36.570 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:49:46.919 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:49:58.365 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:50:09.641 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:50:19.270 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:50:30.228 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:50:50.199 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:51:06.787 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:51:33.204 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:51:50.102 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:51:59.624 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:52:10.681 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:52:22.354 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:52:31.952 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:52:42.890 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:52:52.158 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:53:02.993 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:53:13.968 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:53:35.771 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:53:48.506 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:54:24.618 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:54:35.890 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:54:46.402 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:54:57.559 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:55:08.957 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:55:16.906 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:55:17.324 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/a3de28cb512a043abb625efdd255660e22b7e202
+13:55:17.325 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:55:17.325 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  29) is not same as client side buildName(parallels build #29)
+13:55:20.643 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:55:31.851 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:55:43.787 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:55:49.946 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:55:50.385 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/eaaa3c285a11d7a9466d8f4b49896c3a62d0e942
+13:55:50.385 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:55:50.385 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  30) is not same as client side buildName(parallels build #30)
+13:59:48.821 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+13:59:48.823 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:59:48.908 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+13:59:48.909 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+13:59:48.930 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:59:48.933 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+13:59:49.033 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire8356691803329073608tmp
+13:59:49.033 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+13:59:49.042 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:59:49.043 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:59:49.043 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:59:49.043 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+13:59:49.043 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:59:49.401 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+13:59:49.846 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 444ms
+13:59:51.075 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1224ms
+13:59:52.098 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1021ms
+13:59:52.101 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+13:59:52.613 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:59:52.614 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:59:58.612 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:00:08.799 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:00:19.496 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:00:32.307 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:00:42.957 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:00:56.414 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:01:05.968 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:01:17.410 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:01:27.443 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:01:38.193 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:01:48.536 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:02:00.010 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:02:10.554 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:02:21.815 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:02:34.257 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:02:50.974 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:03:02.263 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:03:13.732 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:03:24.894 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:03:38.003 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:03:48.449 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:03:59.374 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:04:10.098 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:04:17.830 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+14:04:18.446 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/d3d7dfe32940a863b18dd627087bd4f12ce1e8c9
+14:04:18.447 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:04:18.447 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  31) is not same as client side buildName(parallels build #31)
+14:12:03.255 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+14:12:03.256 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:12:03.340 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/manoj/Downloads/Parallels, idea.version=2023.3.2, user.dir=/Users/manoj/Downloads/Parallels, localrepository=/Users/manoj/.m2/repository}
+14:12:03.341 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/manoj/Downloads/Parallels/browserstack.yml
+14:12:03.363 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:12:03.366 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+14:12:03.462 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : /Users/manoj/Downloads/Parallels/target/surefire/surefire2247250153321120770tmp
+14:12:03.462 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.SeleniumTest
+14:12:03.470 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+14:12:03.471 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+14:12:03.471 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+14:12:03.471 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+14:12:03.471 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:12:04.317 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+14:12:04.798 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 480ms
+14:12:06.031 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1229ms
+14:12:07.051 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1019ms
+14:12:07.055 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+14:12:07.817 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+14:12:07.818 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:12:13.565 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:12:25.806 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:12:37.070 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:12:50.354 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:13:00.729 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:13:12.091 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:13:24.056 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:13:34.830 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:13:45.377 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:13:56.225 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:14:08.924 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:14:19.986 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:14:58.281 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:15:11.457 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:15:25.520 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:15:36.784 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:15:49.281 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:16:00.539 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:16:14.483 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:16:28.189 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:16:46.376 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:16:57.711 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:17:07.920 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:17:14.527 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+14:17:15.086 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/c04f32be72e6fb26b0e2fd064bda6223edb02abc
+14:17:15.086 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:17:15.086 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(parallels build  32) is not same as client side buildName(parallels build #32)
